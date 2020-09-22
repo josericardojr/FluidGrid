@@ -16,7 +16,10 @@ In order to compile the project, it is necessary to use the [jrfxgl](https://git
 
 
 # Videos
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=cTA0uPKqPpY
+" target="_blank"><img src="http://img.youtube.com/vi/cTA0uPKqPpY/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
 
-[<img src="https://img.youtube.com/vi/cTA0uPKqPpY/default.jpg" width="50%">](https://youtu.be/cTA0uPKqPpY)
-
-[<img src="https://img.youtube.com/vi/iyM1bkVSc6U/default.jpg" width="50%">](https://youtu.be/iyM1bkVSc6U)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=iyM1bkVSc6U
+" target="_blank"><img src="http://img.youtube.com/vi/iyM1bkVSc6U/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
