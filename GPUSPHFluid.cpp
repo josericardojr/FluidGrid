@@ -87,5 +87,14 @@ namespace Simulation
 			glDisableClientState(GL_VERTEX_ARRAY);
 			glDisable(GL_POINT_SPRITE);
 		}
+		
+		int GPUSPHFluid::copyPositionToCPU(float4** particlePositions){
+			beginUpdate();
+			*particlePositions = (float4*) malloc(sizeof(float4) * mFluidParams.max_particles);
+			checkCudaErrors(cudaMemcpy(*particlePositions, getOrderedPosition(),
+					mFluidParams.max_particles, cudaMemcpyDeviceToHost));
+			endUpdate();
+			return mFluidParams.max_particles;
+		}
 	}
 }

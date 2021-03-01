@@ -118,6 +118,7 @@ namespace Simulation
 			unsigned int* getParticleID(){ return d_particleId; }
 			unsigned int* getHashStart(){ return d_gridPosStart; }
 			unsigned int* getHashEnd(){ return d_gridPosEnd; }
+			int 	  	  copyPositionToCPU(float4** particlePositions);			
 			float4*       getPosition();
 			float4*       getOrderedPosition(){ return d_ordered_position; }
 			float4*       getOrderedVelocities(){ return d_ordered_vel; }
