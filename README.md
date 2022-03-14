@@ -6,6 +6,16 @@ Our discretisation of polygonal model into a set of particles is made by using a
 
 In order to compile the project, it is necessary to use the [jrfxgl](https://github.com/josericardojr/jrfxgl) engine.
 
+# Challenges
+The main challenge of this project was distribute tasks among CPU and GPU and each of these processors have its own architecture.
+Also, in order to minimize the data communication between GPU and CPU, which tends to reduce the overall speed, a new data structure was created.
+Interaction between fluid and rigid body is done by covering the 3D model surface with a collection of spheres using a technique called Depth Peeling.
+
+# Features
+* CPU and GPU usage.
+* Two way interaction between fluids and rigid body.
+* Depth Peeling technique for discretizing rigid bodies.
+
 
 # Documentation
 * [A heterogeneous system based on GPU and multi-core CPU for real-time fluid and rigid body simulation](http://dx.doi.org/10.1080/10618562.2012.683789)
